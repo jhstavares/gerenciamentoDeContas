@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class ModelContas {
+public class ContasModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

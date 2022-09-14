@@ -4,9 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
-@AllArgsConstructor
-public enum StatusEnum {
-    AGUARDANDO,
-    PAGO,
-    VENCIDA
+
+public enum TipoRecebimentoEnum {
+    ALUGUEIS,
+    EMPREGO_CLT,
+    FREELANCER
 }

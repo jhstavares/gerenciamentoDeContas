@@ -5,8 +5,8 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum StatusEnum {
-    AGUARDANDO,
-    PAGO,
-    VENCIDA
+public enum RecebimentoAlugueisStatus {
+    EM_ATRASO,
+    EM_DIA,
+    ADIANTADO
 }
